@@ -61,5 +61,33 @@
         "description": "La pachamanca (en Quechua clásico: Pachamanka o Quechua ancashino: Patsamanka) hace referencia a una forma tradicional de preparar alimentos y a un plato típico de la gastronomía del Perú, elaborado por la cocción, al calor de piedras precalentadas.",
         "urlImage": "https://buenazo.cronosmedia.glr.pe/original/2020/10/06/5f7cba758b84af0f30028b33.jpg",
         "urlRecipe": "https://buenazo.pe/recetas/platos-de-fondo/pachamanca-receta-237"
+    },
+    {
+        "id": 10,
+        "name": "Ceviche",
+        "description": "La costumbre de preparar Ceviche comenzó en la época pre-incaica con la cultura Mochica quienes preparaban un plato en base a pescado fresco macerado con el jugo de una fruta cítrica llamada “tumbo” y hierbas de la zona. Durante el imperio Incaico, la preparación del ceviche fue modificándose",
+        "urlImage": "https://www.gediscovery.edu.pe/blog/wp-content/uploads/2017/07/gastronomia-ceviche.jpg",
+        "urlRecipe": "https://buenazo.pe/recetas/entradas/ceviche-lenguado-receta-clasica-81"
+    },
+    {
+        "id": 11,
+        "name": "Causa limeña",
+        "description": "Existen teorías que vinculan el origen de la Causa con los incas. Se dice que su nombre proviene del vocablo quechua kausaq, nombre que le daban a la papa y cuyo significado era “sustento de vida”. Datos históricos señalan que los ancestros ya tenían su versión de papa sancochada mezclada con ají.",
+        "urlImage": "https://i.pinimg.com/originals/cc/2b/54/cc2b549df93ec7c62e214cadc03c7b42.jpg",
+        "urlRecipe": "https://buenazo.pe/recetas/entradas/causa-pollo-receta-159"
+    },
+    {
+        "id": 12,
+        "name": "Anticuchos",
+        "description": "¿Cuál es el origen de los anticuchos? Se sabe que en la época prehispánica los antiguos peruanos del Ande consumían trozos de carne de llama sazonados con hierbas y ajíes. Pero no fue hasta la época colonial cuando el plato empezó a tener los ingredientes con los que lo conocemos hoy en día.",
+        "urlImage": "https://peru.info/archivos/publicacion/142-imagen-18927482020.jpg",
+        "urlRecipe": "https://buenazo.pe/recetas/entradas/anticuchos-peruanos-113"
+    },
+    {
+        "id": 13,
+        "name": "Papa a la Huancaina",
+        "description": "Al ser una labor que demandaba un importante esfuerzo por parte de obreros e ingenieros, un grupo de mujeres huancaínas tuvo la iniciativa de asistir y proveer con alimentos a los trabajadores. Dentro del menú ofrecido, un potaje a base de papa, queso y rocoto se convirtió en el preferido de todos",
+        "urlImage": "https://i.pinimg.com/originals/cc/2b/54/cc2b549df93ec7c62e214cadc03c7b42.jpg",
+        "urlRecipe": "https://buenazo.pe/recetas/entradas/crema-huancaina-receta-176"
     }
 ]
