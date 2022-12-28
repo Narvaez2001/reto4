@@ -89,5 +89,12 @@
         "description": "Al ser una labor que demandaba un importante esfuerzo por parte de obreros e ingenieros, un grupo de mujeres huancaínas tuvo la iniciativa de asistir y proveer con alimentos a los trabajadores. Dentro del menú ofrecido, un potaje a base de papa, queso y rocoto se convirtió en el preferido de todos",
         "urlImage": "https://i.pinimg.com/originals/cc/2b/54/cc2b549df93ec7c62e214cadc03c7b42.jpg",
         "urlRecipe": "https://buenazo.pe/recetas/entradas/crema-huancaina-receta-176"
+    },
+    {
+        "id": 14,
+        "name": "Shambar",
+        "description": "Se trata de una suculenta sopa que incluye todo tipo de legumbres y carnes, y cuya tradición norteña es servirla al inicio de cada semana por ser una gran fuente de energía. Actualmente, no hay restaurante o pequeño 'huarique' en la costa norte peruana donde no se sirva esta deliciosa receta.",
+        "urlImage": "ttps://decomidaperuana.com/wp-content/uploads/2020/05/sopa-shambar.jpg",
+        "urlRecipe": "https://buenazo.pe/recetas/sopas-caldos-y-cremas/sopa-shambar-receta-227"
     }
 ]

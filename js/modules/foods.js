@@ -7,22 +7,19 @@ const foods = () => {
 
             foodsFoods.innerHTML += `
             <div class="col-md-4" key=${id}>
-            <div class="card bg-dark border border-2 border-light border-opacity-25 h-100 mx-auto"
-              style="width: min(100%, 18rem);">
-              <div class="card-header text-center">
-                ${name}
+            <div class="card bg-body border border-2 border-light border-opacity-25 h-100 mx-auto" style="width: 18rem;">
+              <img src="${urlImage}" 
+              class="card-img-top" alt="Costa 1" width="256" height="144" style="width: 100%; height: 192px; object-fit: cover; border-radius: 0.5rem;">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Plato Típico</div>
+                <div class="card-body h-100">
+                   <h5 class="card-title">${name}</h5>
+                   <p class="card-text">${description}</p>
+                   <a href="${urlRecipe}" class="btn btn-primary" target="_blank">Receta</a>
+                </div>
               </div>
-              <div class="card-body">
-                <img src="${urlImage}" class="card-img-top" alt="Anime 1" width="256" height="144"
-                  style="width: 100%; height: 192px; object-fit: cover; border-radius: 0.5rem">
-                <h5 class="card-title mt-2">${name}</h5>
-                <p class="card-text">${description}</p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="${urlRecipe}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Receta</a>
-              </div>
-            </div>
-          </div>
+           </div>
+         </div>
         `;
         });
     };
@@ -30,6 +27,7 @@ const foods = () => {
     const fetchRead = async () => {
         const response = await fetch('https://elliotgaramendi.github.io/frontend-tecsup-e-g11/semana-8/3-chanchirata/api/data.json');
         const data = await response.json();
+        console.log(data)
         renderFoods(data);
     };
     fetchRead();
