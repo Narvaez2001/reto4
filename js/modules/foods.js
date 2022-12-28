@@ -3,8 +3,7 @@ const foods = () => {
         const foodsFoods = document.getElementById('foodsFoods');
 
         data.forEach((element) => {
-            const { id, name, description, urlImage, urlRecipe } = element;
-
+            const { id, type, name, description, urlImage, urlRecipe } = element;
             foodsFoods.innerHTML += `
             <div class="col-md-4" key=${id}>
             <div class="card bg-body border border-2 border-light border-opacity-25 h-100 mx-auto" style="width: 18rem;">
